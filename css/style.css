@@ -1,0 +1,136 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    background-image: url(../img/ImageBackground.png);
+    background-position: cover;
+    height: 750px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+body#aboutus{
+    background-image: url(../img/bg1.png);
+}
+
+body#reservation{
+    background-image: url(../img/bg2.png);
+}
+.con{
+    width: 100% ;
+    height: 750px;
+    background: rgba(42, 38, 61, 0.82);
+    text-align: center;
+}
+
+.back{
+    position: absolute;
+    left: 56px;
+    top: 56px;
+}
+
+
+.judul{
+    font-size: 48px;
+    line-height: 84px;
+    color: #FCB371;
+}
+.judul span{
+    color: white;
+}
+
+.judul-aboutus, .judul-reservation {
+    padding-top: 171px;
+    color:  #FCB371;
+    margin-bottom: 56px;
+}
+
+.p-aboutus{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.easy{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    margin-top: 14px;
+}
+
+.button{
+    margin-top: 59px;
+}
+
+.btn-aboutus{
+    width: 156px;
+    height: 46px;
+    color: #FCB371;
+    font-size: 12px;
+    line-height: 28px;
+    border: 2px solid #FCB371;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.button a.btn-aboutus:hover{
+    color: white;
+}
+
+.btn-reservation{
+    color: white;
+    width: 156px;
+    height: 46px;
+    background: #FCB371;
+    font-size: 12px;
+    line-height: 28px;
+    border: 2px solid #FCB371;
+    border-radius: 6px;
+}
+
+input,select, select option,textarea{
+    font-family: 'Monserat',sans-serif;
+    padding-left: 20px;
+    color: #A9A9A9 !important;
+    font-size: 12px;
+    line-height: 14px;
+    width: 382px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+input::-webkit-input-placeholder{
+    color: #A9A9A9 ;
+}
+input:-moz-placeholder{
+    color: #A9A9A9 ;
+}
+input:-ms-input-placeholder{
+    color: #A9A9A9 ;
+}
+
+input#phone, select#nationality{
+    width: 177px;
+    height: 46px;
+}
+
+textarea#explain{
+    height: 116px;
+    line-height: 40px;
+}
+
+.btn-submit{
+    color: white;
+    width: 383px;
+    height: 53px;
+    background-color:  #FCB371;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-left: -14px
+}
